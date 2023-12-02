@@ -1,0 +1,55 @@
+
+
+.about {
+  font-family: 'Solway', serif;     
+   background-color: black;
+      color: white;
+      display: flex;
+  
+    }
+    .Overview{
+      padding-top: 10%;
+      margin-left: 10%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Solway', serif;
+    height: 100vh;
+    }
+   .Overview > :nth-child(1) {
+    font-weight: bold;
+      font-size: 3rem;
+      font-family: 'Solway', serif;
+
+    }
+   .Overview > :nth-child(2) {
+     font-weight: 100;
+      font-size: 1rem;
+      font-family: 'Solway';
+      max-width: 50%;
+      line-height: 30px;
+
+    }
+
+.Progress-bar{
+  margin-left: 0;
+font-family: 'solway';
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+margin: 3px;
+}
+
+.Progress-bar-left{
+
+  margin-left: 5px;
+  width: 35%;
+}
+.Progress-bar-right{
+ margin-right: 10%;
+  width: 35%;
+}
+
+
+  

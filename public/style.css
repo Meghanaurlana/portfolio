@@ -1,0 +1,19 @@
+* {
+  /* font-family: 'Calligraffitti', cursive;
+font-family: 'Comic Neue', cursive;
+font-family: 'Miniver', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Solway', serif; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+}
+body {
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}

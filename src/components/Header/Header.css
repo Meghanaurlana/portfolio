@@ -1,0 +1,65 @@
+.navbar {
+  background: transparent;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+.logo {
+  width: 60px;
+  padding: 2px 5px;
+}
+
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list>ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.list>ul :hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+  .list {
+    display: none;
+  }
+}
